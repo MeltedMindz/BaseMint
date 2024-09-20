@@ -17,7 +17,7 @@ Generative Art Creation on Base Layer 2
 
 - **Testnet Deployment First**: The platform will first be tested on a testnet to ensure smooth functionality before launching on Base mainnet.
 
-- **Fully On-Chain Art**: The platform uses a hybrid approach, where art scripts are stored on Arweave, and metadata is fully on-chain. This ensures permanent storage and accessibility of the generative art while keeping gas costs low for minting.
+- **Fully On-Chain Art**: Art scripts are stored on onchain, and metadata is fully on-chain. This ensures permanent storage and accessibility of the generative art while keeping gas costs low for minting.
 
 ## How It Works
 
@@ -30,7 +30,7 @@ Artists can either:
 Using the platform’s **boilerplate template**, artists can easily create generative art by modifying the included JavaScript libraries. Once ready, they can upload their finalized scripts to the platform.
 
 ### 3. Deploy Your Art
-After uploading the script, artists can deploy a smart contract (proxy) on Base Layer 2. The smart contract will store the Arweave reference to the script, allowing collectors to mint unique artworks generated on the blockchain.
+After uploading the script, artists can deploy a smart contract (proxy) on Base Layer 2. The smart contract will store the onchain reference to the script, allowing collectors to mint unique artworks generated on the blockchain.
 
 ### 4. Mint and Collect
 Collectors can mint NFTs directly from the deployed contracts. Each mint generates a unique piece of generative art using the artist's script, and the platform collects a small commission from primary sales.
@@ -39,20 +39,20 @@ Collectors can mint NFTs directly from the deployed contracts. Each mint generat
 
 - **Affordable Minting**: By using Base Layer 2, gas costs are extremely low compared to Ethereum mainnet, making it accessible for both artists and collectors.
 - **Pre-built Tools**: Artists can create without worrying about smart contract code or managing storage – BaseMint handles all backend operations.
-- **Permanence**: The platform stores scripts on **Arweave**, ensuring that generative art is available permanently without the need for centralized storage or pinning services.
+- **Permanence**: The platform stores scripts on **onchain**, ensuring that generative art is available permanently without the need for centralized storage or pinning services.
 - **Scalability**: Designed to handle a large number of generative art projects while maintaining an intuitive and user-friendly interface.
 
 ### Roadmap
 
 ### Backend Development
-- [ ] Implement Arweave storage for script libraries and user uploads.
+- [ ] Implement onchain storage for script libraries and user uploads.
 - [ ] Build API endpoints for handling script uploads and downloads.
 - [ ] Develop the smart contract for proxy contract deployment and minting.
 - [ ] Set up testnet environment for contract testing (Base Goerli).
 
 ### Frontend Development
 - [ ] Design and develop the user interface for uploading and selecting scripts.
-- [ ] Integrate Arweave-hosted script libraries into the front-end UI.
+- [ ] Integrate onchain script libraries into the front-end UI.
 - [ ] Build the boilerplate download feature for easy script customization.
 - [ ] Implement the script upload form and integrate with backend for minting.
 - [ ] Create a preview feature to allow artists to view their generative art before minting.
