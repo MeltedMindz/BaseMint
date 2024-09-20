@@ -9,7 +9,7 @@ Generative Art Creation on Base Layer 2
 
 ### Key Features
 
-- **Pre-Deployed Script Libraries**: Artists can access popular generative art libraries like **p5.js**, **Three.js**, and **GLSL** that are stored permanently on **Arweave**. These libraries provide the foundation for creating generative art without needing to write complex backend logic.
+- **Pre-Deployed Script Libraries**: Artists can access popular generative art libraries like **p5.js**, **Three.js**, and **GLSL** that are stored permanently on **Onchain**. These libraries provide the foundation for creating generative art without needing to write complex backend logic.
   
 - **Boilerplate for Easy Customization**: Users can download a **boilerplate template** that includes references to Arweave-hosted libraries. Artists can modify the template locally to create their custom art and upload their final scripts back to the platform for minting.
 
